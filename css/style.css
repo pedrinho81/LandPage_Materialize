@@ -109,4 +109,66 @@ section#comofunciona h3{
     border-radius: 10%;
 }
 
+.page-footer{
+    background-image: linear-gradient(#fff,rgb(28, 40, 93) );
+}
+
+label {
+    color: rgb(243, 243, 243);
+    font-weight: 400;
+}
+h5 {
+    color:rgb(28, 40, 93);
+}
+label.labell{
+    color: white;
+    font-size: 19px !important;
+    ;
+}
+label.labell.active{
+    color: white !important;
+    font-size: 23px !important;
+    
+    
+}
+label.labell::after{
+    color: white;
+}
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+    border-bottom: 2px solid rgb(28, 40, 93);
+}
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom: 2px solid rgb(28, 40, 93);
+}
+div#social ul li{
+    width: 32px; height: 32px;
+    float: left;
+    margin-right: 10px;
+}
+
+div#social ul li a{
+    background-image: url("../imagens/sprite-social.png");
+    display: block;
+    height: 100%;
+    text-indent: -99999em;
+}
+
+
+div#social ul li:nth-child(1) a{ background-position: 0px 0;}
+div#social ul li:nth-child(2) a{ background-position: -32px 0;}
+div#social ul li:nth-child(3) a{ background-position: -64px 0;}
+div#social ul li:nth-child(4) a{ background-position: -96px 0;}
+div#social ul li:nth-child(5) a{ background-position: -128px 0;}
+
+div#social ul li:nth-child(1) a:hover{ background-position: 0px -32px;}
+div#social ul li:nth-child(2) a:hover{ background-position: -32px -32px;}
+div#social ul li:nth-child(3) a:hover{ background-position: -64px -32px;}
+div#social ul li:nth-child(4) a:hover{ background-position: -96px -32px;}
+div#social ul li:nth-child(5) a:hover{ background-position: -128px -32px;}
+
+
+
+.right {
+    color: white;
+}
 
