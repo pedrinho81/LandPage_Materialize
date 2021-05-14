@@ -1,0 +1,112 @@
+section#top{
+    background-color:rgb(28, 40, 93);
+    height: 31em;
+    padding-bottom: 32px ;
+    border-radius: 1%;
+}
+section#top nav {
+    background: rgba(28, 40, 93, 0.329);
+    padding: 0.2em;
+    height: 4.5em;
+}
+section#top img {
+    width: 50%;
+    padding-top: 0.5rem;
+}
+
+ section#top  a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 19.8px !important;
+    color: rgb(220, 255, 62) !important;
+    letter-spacing: 1.5px;
+    padding-right: 2px;
+    border-radius: 20%;
+}
+p {
+    font-size: 20px;
+}
+.btn {
+    border-radius: 10%;
+    background-color: rgb(74, 73, 168);
+}
+.btn:hover{
+    background-color: rgb(28, 40, 93);
+}
+
+section#top nav ul li a {
+    font-weight:500;
+    text-transform: uppercase;
+}
+
+section#top nav ul li:nth-child(3){
+ border-left: 2px solid white;
+}
+ 
+body h2{
+  font-family: 'Newsreader', serif; 
+}
+div#info h2 {
+    color: rgb(220, 255, 62);
+    margin-top: 1em;
+}
+div#info p {
+    color: white;
+    font-size: 20px;
+}
+
+.bg-top{
+    background: url(/imagens/bg-top.svg) no-repeat right;
+}
+h3::before {
+    padding-left: 2px solid navy;
+}
+
+section#formacoes h3 {
+    font-family: 'Newsreader', serif;
+    color: rgb(28, 40, 93);
+}
+
+section#formacoes h6{
+    color: rgb(28, 40, 93);
+
+    font-weight: 500;
+    font-family: 'Newsreader', serif;
+}
+
+.card-action  {
+    font-weight: 500 !important;
+    
+}
+.card .card-content p {
+    font-size: 15px;
+}
+.card .card-reveal{
+    background-color: whitesmoke;
+}
+.card .card-reveal p {
+    font-size: 15px;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating){
+    color: rgb(28, 40, 93);
+    font-family: 'Newsreader', serif;
+    font-weight: 600;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover{
+    color: rgb(194, 174, 0);
+}
+section#comofunciona{
+    background-color: rgba(200, 200, 200, 0.103);
+    padding:1rem;
+}
+
+section#comofunciona h3{
+    font-size: 35px;
+    font-family: 'Newsreader', serif;
+    text-transform: uppercase;
+    color: rgb(28, 40, 93);
+    border-left: 2px solid rgb(194, 174, 0);
+    padding-left: 2px;
+    border-radius: 10%;
+}
+
+
