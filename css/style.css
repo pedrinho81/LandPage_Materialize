@@ -1,5 +1,5 @@
 section#top{
-    background-color:rgb(28, 40, 93);
+    background-color:rgb(28, 40, 93) ;
     height: 31em;
     padding-bottom: 32px ;
     border-radius: 1%;
@@ -85,6 +85,9 @@ section#formacoes h6{
 }
 .card .card-reveal p {
     font-size: 15px;
+}
+i.right{
+    color: rgb(28, 40, 93);
 }
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating){
     color: rgb(28, 40, 93);
